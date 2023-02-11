@@ -181,7 +181,6 @@ p {
     letter-spacing: 0.1062rem;
 }
 .navigation-wrap{
-    top: 53px;
     position: fixed;
     width: 100%;
     left: 0;
@@ -235,6 +234,9 @@ p {
 
 /*BANNER - 1*/
 
+.banner{
+    margin-top: -85px;
+}
 
 #home .carousel-caption{
     top: 12rem;
@@ -248,17 +250,8 @@ p {
 
 
 /* NEW ARRIVLS*/
-
-.carimg{
-    width: 94%;
-}
-.carimg1{
-    width: 95%;
-}
-
-
 .new-arrivals .banner-info{
-    bottom: 240px;
+    bottom: 200px;
     margin: auto;
     width: 100%;
     position: relative;
@@ -298,66 +291,7 @@ p {
 }
 
 
-.ratings {
-    font-size: 1.2rem;
-    color: #fdcc0d;
-  }
-  
-  #no_of_reviews {
-    font-size: 0.85rem;
-    color: yellow;
-    margin-left: 0.5rem;
-  }
-  .rating-outer {
-    display: inline-block;
-    position: relative;
-    font-family: FontAwesome;
-    color: #fdcc0d;
-  }
-  
-  .rating-outer::before {
-    content: '\f006 \f006 \f006 \f006 \f006';
-  }
-  
-  .rating-inner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 0;
-  }
-  
-  .rating-inner::before {
-    content: '\f005 \f005 \f005 \f005 \f005';
-    color: #f8ce0b;
-  }
-
-
-.pagi{
-    margin-top: -280px;
-    margin-bottom: 60px;
-    font-family: 'fontawesome';
-}
-.page-item.active .page-link {
-    background-color: #fa9c23;
-    border-color: #fa9c23;
-  }
-  
-  .page-link {
-    color: #fa9c23;
-  }
-  
-  .page-link:hover {
-    color: #fa9c23;
-  }
-
-
-
-
-
-
-/* PRODUCTS */
+/* PRODUCts */
 
 .product .wrapper{
     background-color: var(--black-color);
@@ -410,197 +344,11 @@ p {
 /* DEALS OF DAY */
 
 .deal-of-the-day{
-    background-image: url(/public/img/card/img-4.jpg);
+    background-image: url(/img/card/img-4.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
-
-
-
-  
-
-
-
-
-@media (max-width : 1024px) {
-    h1{
-        font-size: 3.25rem;
-    }
-
-    h2{
-        font-size: 1.125rem;
-        line-height: 1.5625rem;
-    }
-    .wrapper {
-        padding-top: 1.25rem;
-        padding-bottom: 1.25rem;
-    }
-    .pagi{
-        margin-top: -230px;
-    }
-}
-
-@media (max-width: 991px) {
-
-    .navigation-wrap{
-        top: 0;
-    }
-
-    h4{
-        font-size: 0.9375rem;
-        margin-bottom: 0.625rem;
-    }
-    p {
-        font-size: 0.875rem;
-        line-height: 1.3125rem;
-    }
-
-    .text-content{
-        width: 100%;
-    }
-    .new-arrivals .banner-info{
-        bottom: 260px;
-    }
-    .pagi{
-        margin-top: -270px;
-    }
-
-    /* navbar brand*/
-
-    .navigation-wrap .navbar-brand img{
-        height: 2.8125rem;
-    }
-    .navbar-toggler i{
-        color: var(--white-color);
-        line-height: 2;
-    }
-    .navigation-wrap{
-        text-align: right;
-        background-color: var(--black-color);
-    }
-    .navigation-wrap .nav-link{
-        line-height: 1.875rem;
-    }
-
-
-    /*BANNER DESIGN*/
-    #home{
-        padding: 0.375rem 0 0;
-    }
-
-    /*TOP BANNER*/
-    #home .carousel-caption {
-        top: 3.5rem;
-    }
-
-}
-
-
-@media ( max-width : 786px ) {
-    .pagi{
-        margin-top: -308px;
-        margin-bottom: 30px;
-    }
-}
-
-
-@media ( max-width : 767px ) {
-    .pagi{
-        margin-top: -230px;
-        margin-bottom: 30px;
-    }
-}
-
-
-
-@media (max-width : 750px) {
-    .new-arrivals .banner-info{
-        bottom: 200px;
-    }
-    
-}
-
-
-@media (max-width : 575px) {
-    h1{
-        font-size: 1.25rem;
-    }
-    h2 {
-        font-size: 1rem;
-        line-height: 1rem;
-        margin-bottom: 5px;
-    }
-
-    .main-btn{
-        height: 20px;
-        line-height: 20px;
-        font-size: 0.9375rem;
-    }
-
-    .main-btn:after {
-        transform: translateY(0.9375rem);
-        -webkit-transform: translateY(0.9375rem);
-    }
-
-    .main-btn:before {
-        transform: translateY(0.9375rem);
-        -webkit-transform: translateY(0.9375rem);
-    }
-
-    /*TOP BANNER*/
-    #home .carousel-caption {
-        top: 1.5rem;
-    }
-
-    #home .carousel-caption p{
-        margin: 5px auto;
-    }
-
-    .pagi{
-        margin-top: -197px;
-        margin-bottom: 30px;
-    }
-
-    
-}
-
-
-@media (max-width : 515px) {
-    .pagi{
-        margin-top: -213px;
-    }
-    
-}
-
-
-@media (max-width : 430px) {
-    h1{
-        margin-bottom: 0;
-    }
-    /*TOP BANNER*/
-    .top-header{
-        display: none;
-    }
-    #home .carousel-caption p{
-        font-size: 0.75rem;
-        line-height: 1.125rem;
-    }
-    #home .carousel-caption {
-        padding: 0;
-    }
-
-}
-
-@media (max-width : 360px) {
-    #home .carousel-caption {
-        top: 1rem;
-    }
-}
-
-
 
 
 

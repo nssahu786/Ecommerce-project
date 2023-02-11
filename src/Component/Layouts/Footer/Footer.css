@@ -1,0 +1,65 @@
+.footer-banner{
+    background-color: black;
+}
+
+.ma-1{
+    background-color: blue;
+    border-radius: 50px;
+}
+.ma-2{
+    background-color: #55acee;
+    border-radius: 50px;
+}
+.ma-3{
+    background-color: #dd4b39;
+    border-radius: 50px;
+}
+.ma-4{
+    background-color: #ac2bac;
+    border-radius: 50px;
+}
+.ma-5{
+    background-color: #0082ca;
+    border-radius: 50px;
+}
+.ma-6{
+    background-color: #333333;
+    border-radius: 50px;
+}
+
+
+.foot{
+    background-color: black;
+    height: 165px;
+}
+.foo1{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-family: initial;
+    font-size: large;
+    font-weight: 500;
+}
+.foo2{
+    color: white;
+    text-align: center;
+    font-family: initial;
+    font-size: large;
+    font-weight: 500;
+}
+
+
+
+
+
+@media (max-width : 700px) {
+    .foo1{
+        text-align: center;
+    }
+    .foo2{
+        text-align: center;
+    }
+    .foot{
+        height: 200px;
+    }
+}

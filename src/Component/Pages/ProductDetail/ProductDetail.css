@@ -1,0 +1,30 @@
+
+.detail-banner{
+    background-color: var(--black-color);
+    
+}
+.cross-line{
+    border: 2px solid var(--white-color);
+}
+.detail-img{
+    width: 70%;
+}
+.detail-title1{
+    
+    font-size: large;
+}
+.detail-title2{
+    color: var(--primary-color);
+    font-size: x-large;
+}
+
+.detail-price{
+    color: var(--white-color);
+    font-size: xx-large;
+}
+.detail-para{
+    color: var(--white-color);
+}
+.detail-desc{
+    color: var(--white-color);
+}
