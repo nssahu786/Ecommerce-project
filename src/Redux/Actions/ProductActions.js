@@ -18,7 +18,7 @@ export const getProduct = (currentPage = 1) => async(dispatch) => {
     try {
         
         dispatch({ type : All_PRODUCT_REQUEST })
-        const { data } = await axios.get(`http://localhost:3008/api/ns/products/?page=${currentPage}`)
+        const { data } = await axios.get(`https://live-ecommerce.onrender.com/api/ns/products/?page=${currentPage}`)
         //console.log(data)
 
         dispatch({
@@ -43,7 +43,7 @@ export const getProductDetail = (id) => async(dispatch) => {
     try {
         
         dispatch({ type : PRODUCT_DETAIL_REQUEST })
-        const { data } = await axios.get(`http://localhost:3008/api/ns/productdetail/${id}`)
+        const { data } = await axios.get(`https://live-ecommerce.onrender.com/api/ns/productdetail/${id}`)
         //console.log(data);
 
         dispatch({

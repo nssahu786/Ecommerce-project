@@ -16,7 +16,7 @@ export const login = (email, password) => async (dispatch) => {
             "content-type": "application/json",
           },
         };
-        const { data } = await axios.post("http://localhost:3008/api/ns/login",{ email, password },config);
+        const { data } = await axios.post("https://live-ecommerce.onrender.com/api/ns/login",{ email, password },config);
         //console.log(data);
 
         dispatch({
